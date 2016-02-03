@@ -1,0 +1,38 @@
+/*//// Media ////////////////////////////*/
+@media (max-width: 1290px) {
+.header .social {
+      display: none;
+    }
+}
+
+@media (max-width: 1180px) {
+  .header .desktop {
+    display: none;
+  }
+
+  .header .mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .p50 {
+  	width: 100%;
+  }
+
+  .p33 {
+  	width: 100%;
+  }
+
+  .p25 {
+  	width: 100%;
+  }
+
+  .p66 {
+  	width: 100%;
+  }
+
+  .footer .copy {
+  	display: none;
+  }
+}

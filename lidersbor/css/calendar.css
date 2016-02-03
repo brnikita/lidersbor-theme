@@ -1,0 +1,96 @@
+/*//// Calendar ////////////////////////////*/
+.calendar {
+	padding-top: 8px;
+}
+
+.calendar .owl-controlls{
+    margin-top: 12px;
+	text-align: center;
+	z-index: 100;
+}
+
+.calendar .marker {
+	float: left;
+	margin: 8px;
+	margin-top: 16px;
+	width: 8px;
+	height: 8px;
+	background: #efefef;
+	border-radius: 4px;
+}
+
+.calendar .time_line {
+	border-top: #efefef 1px solid;
+	background: #fbfbfb;
+}
+
+.calendar .time_line:hover {
+	color: #000;
+	background: #fff;
+}
+
+.calendar .time {
+	float: left;
+	margin: 8px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #000;
+}
+
+.calendar .description {
+	font-size: 12px;
+	line-height: 24px;
+	text-align: right;
+	
+}
+
+/*//// Media ////////////////////////////*/
+@media (max-width: 1290px) {
+  .header .social {
+      display: none;
+    }
+}
+
+@media (max-width: 1180px) {
+  .header .desktop {
+    display: none;
+  }
+
+  .header .mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .p50 {
+  	width: 100%;
+  }
+
+  .p33 {
+  	width: 100%;
+  }
+
+  .p25 {
+  	width: 100%;
+  }
+
+  .p66 {
+  	width: 100%;
+  }
+
+  .calendar {
+  	padding: 0;
+  }
+
+  .calendar .card_t {
+  	margin: 0;
+  }
+
+  .calendar .section_line_lr {
+  	padding: 0;
+  }
+
+  .footer .copy {
+  	display: none;
+  }
+}

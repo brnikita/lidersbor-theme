@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="stylesheet" href="60em/grid.css"/>
+    <link rel="stylesheet" href="60em/fonts.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/owl.theme.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/blog.css"/>
+
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<section id="MobileMenu"  class="section menu_mobile">
+			<div class="section_line">
+				<ul>
+                    <li><a href="/text.html">О центре</a></li>
+                    <li><a href="/calendar.html">Расписиние</a></li>
+                    <li><a href="/album.html">Фото</a></li>
+                    <li><a href="/blog.html">Статьи</a></li>
+                    <li><a href="/treiners.html">Тренеры</a></li>
+                    <li><a href="/price.html">Прайс</a></li>
+                    <li><a href="/text.html">Договор</a></li>
+				</ul>
+			</div>
+		</section>
+		<section class="header section">
+			<div class="section_line_lr desktop">
+				<div class="logo"></div>
+				<div class="text">
+					
+					<p class="phone">+7 (921) 318-25-20 / 7-27-47</p>
+					<p class="description">Центр культуры тела "Лидер"</p>
+				</div>
+				<ul class="social">
+					<li>
+						<a href="#" class="vk"></a>
+					</li>
+					<!-- <li>
+						<a href="#" class="fb"></a>
+					</li>
+					<li>
+						<a href="#" class="tw"></a>
+					</li> -->
+				</ul>
+                <ul>
+                    <li><a href="/text.html">О центре</a></li>
+                    <li><a href="/calendar.html">Расписиние</a></li>
+                    <li><a href="/album.html">Фото</a></li>
+                    <li><a class="active" href="/blog.html">Статьи</a></li>
+                    <li><a href="/treiners.html">Тренеры</a></li>
+                    <li><a href="/price.html">Прайс</a></li>
+                    <li><a href="/text.html">Договор</a></li>
+                </ul>
+			</div>
+
+			<div class="section_line_lr mobile">
+				<div class="logo"></div>
+				<ul>
+					<li><a href="javascript:void(0)" id="MenuButton" class="menu"></a></li>
+				</ul>
+			</div>
+		</section>
+		<section class="blog section_t">
+			<div class="section_line_lr conteiner">
+				<h1>Статьи</h1>
+			</div>
+			<div class="section_line_lr conteiner">
+				<div class="card_tb">
+					<div class="card_line_lr">
+						<h3>Когда сладости полезны</h3>
+						<p class="date">29/01/2015</p>
+						<p>“Быть такого не может!” – возмущенно воскликните вы, бросив один только взгляд на название материала. Вы столько раз отказывались от кондитерских вкусностей ради утонченной талии и часами изнуряли себя на беговой дорожке из-за одного съеденного пирожного. И тут, на тебе – сладости полезны. А ведь иногда это так. </p>
+						<a href="#" class="read_more">Читать</a>
+					</div>
+				</div>
+				<div class="card_tb">
+					<div class="card_line_lr">
+						<h3>Что происходит с организмом, если вы бросаете тренировки?</h3>
+						<p class="date">29/01/2015</p>
+						<img class="content" src="/img/text/1.jpg" alt="">
+						<p>Вы когда-нибудь задумывались, что происходит с вами, когда один день пропущенной тренировки превращается в неделю, месяц, год...? и не важно, что послужило причиной: желание сделать перерыв,</p>
+						<a href="#" class="read_more">Читать</a>
+					</div>
+				</div>
+				<div class="card_tb">
+					<div class="card_line_lr">
+						<h3>Поговорим о сушке</h3>
+						<p class="date">29/01/2015</p>
+						<p>Некоторые думают, что «сушка» — это избавление от лишней жидкости в организме, и очень сильно ошибаются. Сушка подразумевает активную </p>
+						<a href="#" class="read_more">Читать</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pagination section_tb">
+			<div class="section_line_lr conteiner">
+				<ul>
+					<li class="prev"><a href="#"></a></li>
+					<li class="next"><a href=""></a></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<section class="footer section_tb">
+		<div class="section_line_lr">
+			<p class="copy">&copy; 2015 – All rights reserved <a href="#">here</a></p>
+			<ul class="social">
+				<li>
+					<a href="#" class="vk"></a>
+				</li>
+				<li>
+					<a href="#" class="fb"></a>
+				</li>
+				<li>
+					<a href="#" class="tw"></a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#MenuButton").click(function(ev){
+				$("#MobileMenu").slideToggle(300);
+			});
+		});
+	</script>
+</body>
+</html>
