@@ -35,11 +35,6 @@
 
 .calendar .time_line {
 	border-top: #efefef 1px solid;
-	background: #fbfbfb;
-}
-
-.calendar .time_line:hover {
-	color: #000;
 	background: #fff;
 }
 
