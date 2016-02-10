@@ -1,4 +1,18 @@
 /*//// Calendar ////////////////////////////*/
+.calendar .print {
+  line-height: 48px;  
+}
+
+.calendar .print:before {
+  content: "\f38d";
+  font-family: "Material_icons";
+  vertical-align: middle;
+  line-height: 1;
+  font-style: normal;
+  speak: none;
+  margin-right: 8px;
+}
+
 .calendar {
 	padding-top: 8px;
 }
@@ -63,31 +77,47 @@
 
 @media (max-width: 600px) {
   .p50 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p33 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p25 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p66 {
-  	width: 100%;
+    width: 100%;
   }
 
-  .calendar {
-  	padding: 0;
+  .p75 {
+    width: 100%;
   }
 
-  .calendar .card_t {
-  	margin: 0;
+  .header {
+    padding: 0;
   }
 
-  .calendar .section_line_lr {
-  	padding: 0;
+  .header .logo {
+    margin: 0;
+  }
+
+  .header ul {
+    margin: 0;
+  }
+
+  .wrapper {
+    padding-top: 80px;
+  }
+
+  .menu_mobile {
+    top: 80px;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .footer .copy {

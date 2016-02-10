@@ -22,6 +22,7 @@
 
 /* Icons ////////////////////////////////////////////////////////////////////////////////////////////////*/
 @font-face { font-family: Icon_Set; src: url(/60em/fonts/Icons/60em.ttf); }
+@font-face { font-family: Material_icons; src: url(/60em/fonts/Icons/MaterialDesignIcons.ttf); }
 
 body { font-kerning: normal; -webkit-font-kerning: normal; }
 

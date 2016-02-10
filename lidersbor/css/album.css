@@ -1,4 +1,18 @@
 /*//// Album ////////////////////////////*/
+.back_link:before {
+  margin: 8px;
+}
+
+.back_link:before {
+  content: "\e819";
+  font-family: "Icon_Set";
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 1;
+  font-style: normal;
+  speak: none;
+}
+
 .album a {
 	margin: 0;
 	padding: 0;
@@ -24,6 +38,10 @@
 	opacity: 1;
 }
 
+.img_mobile {
+  display: none;
+}
+
 .cover:before {
 	content: "\e83e";
 	width: 64px;
@@ -41,6 +59,60 @@
     margin-top: -32px;
     margin-left: -32px;
 }
+
+.pagination .prev a, .pagination .next a {
+  width: 32px;
+  height: 32px;
+  padding: 12px;
+  font-family: "Icon_Set";
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 1;
+    font-style: normal;
+    speak: none;
+    color: #000;
+  border: #000 1px solid;
+}
+
+.pagination .conteiner {
+  padding: 0 16px;
+}
+
+.pagination .prev a:hover, .pagination .next a:hover {
+  color: #ed3237;
+  border: #ed3237 1px solid;
+}
+
+.pagination {
+  margin-bottom: 24px;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0;
+  display: inline;
+}
+
+.pagination .prev {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
+}
+
+.pagination .next a:before {
+  content: "\e81a";
+}
+
+.pagination .prev a:before {
+  content: "\e819";
+}
+
 
 /*//// Media ////////////////////////////*/
 @media (max-width: 1290px) {
@@ -61,22 +133,62 @@
 
 @media (max-width: 600px) {
   .p50 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p33 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p25 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p66 {
-  	width: 100%;
+    width: 100%;
+  }
+
+  .p75 {
+    width: 100%;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header .logo {
+    margin: 0;
+  }
+
+  .header ul {
+    margin: 0;
+  }
+
+  .wrapper {
+    padding-top: 80px;
+  }
+
+  .menu_mobile {
+    top: 80px;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .footer .copy {
   	display: none;
+  }
+
+  .cover:hover {
+    opacity: 0;
+  }
+
+  a.gallery {
+    display: none;
+  }
+
+  img.img_mobile {
+    display: block;
   }
 }

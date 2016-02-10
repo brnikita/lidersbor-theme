@@ -64,19 +64,47 @@
 
 @media (max-width: 600px) {
   .p50 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p33 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p25 {
-  	width: 100%;
+    width: 100%;
   }
 
   .p66 {
-  	width: 100%;
+    width: 100%;
+  }
+
+  .p75 {
+    width: 100%;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header .logo {
+    margin: 0;
+  }
+
+  .header ul {
+    margin: 0;
+  }
+
+  .wrapper {
+    padding-top: 80px;
+  }
+
+  .menu_mobile {
+    top: 80px;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .footer .copy {
